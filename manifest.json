@@ -1,0 +1,10 @@
+{
+  "name": "Mon Budget",
+  "short_name": "Mon Budget",
+  "description": "Une application personnelle pour suivre ses revenus, dépenses, enveloppes et épargne.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#247b63",
+  "icons": []
+}

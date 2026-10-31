@@ -1,0 +1,20 @@
+MON BUDGET — prototype personnel
+
+Contenu :
+- index.html : application web
+- manifest.json et sw.js : éléments de base pour une installation en tant qu'application web progressive (PWA)
+
+Fonctionnalités :
+- Accueil et résumé mensuel
+- Revenus et dépenses manuels
+- Dépenses fixes enregistrées et marquage comme payées
+- Enveloppes personnalisées, avec budget modifiable selon le mois
+- Objectifs d'épargne
+- Historique et export/import de sauvegarde
+
+À savoir :
+- Les données sont conservées dans le stockage local du navigateur utilisé.
+- Il n'y a pas de connexion bancaire ni de synchronisation entre appareils.
+- Exporte régulièrement une sauvegarde JSON depuis Paramètres.
+- Pour l'installer comme une véritable PWA sur Android, les fichiers doivent être hébergés en HTTPS (par exemple via GitHub Pages). Ouvrir simplement le fichier HTML ne garantit pas l'installation PWA.
+- Prototype initial : vérifier soigneusement les calculs et le comportement avant d'y mettre des données financières importantes.
